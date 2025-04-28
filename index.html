@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyrics Finder</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+    input { margin: 5px; padding: 8px; }
+    button { padding: 8px 16px; }
+    pre { white-space: pre-wrap; text-align: left; margin-top: 20px; border: 1px solid #ccc; padding: 10px; max-width: 600px; margin-left: auto; margin-right: auto; background-color: #f9f9f9; }
+  </style>
+</head>
+<body>
+  <h1>🎤 Lyrics Finder</h1>
+  <form id="lyricsForm">
+    <input type="text" id="artist" placeholder="Artist Name" required>
+    <input type="text" id="song" placeholder="Song Name" required>
+    <button type="submit">Get Lyrics</button>
+  </form>
+  <pre id="lyrics"></pre>
+
+  <script src="app.js"></script>
+</body>
+</html>
